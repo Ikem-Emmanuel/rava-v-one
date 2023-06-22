@@ -1,0 +1,53 @@
+.mainTitle{
+    font-size: 100px;
+}
+.container {
+}
+
+.selectTitle{
+    margin: 20px 0px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.card{
+    border: 2px solid #535353;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-size: cover !important;
+}
+
+.card:nth-child(1){
+    background: url("/illustration.png");
+}
+
+.card:nth-child(2){
+    background: url("/websites.jpg");
+}
+.card:nth-child(3){
+    background: url("/apps.jpg");
+}
+.card:nth-child(4){
+    background: url("/websites.jpg");
+}
+
+.cardTitle{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card:hover .cardTitle{
+    color: #53c28b;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 20px;
+    border-radius: 5;
+}
